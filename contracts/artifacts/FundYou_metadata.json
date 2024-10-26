@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FundYou.sol": "FundYou"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FundYou.sol": {
+			"keccak256": "0x6e1f9ac64b587df1bd873152779936e0e90a29c3ca737d7646c4f5f453f83c2c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a5cb98cad5c1f8c02a8512c8f7e732aa388cb5caf870d1a5ba0a72f984059c4",
+				"dweb:/ipfs/QmaLAQ8gSbc44YVLDFmGTuFK9a48SEWfjvnQqAVT6GJuMa"
+			]
+		},
+		"contracts/MathLib.sol": {
+			"keccak256": "0x0bafb28196f5ae8250411031ba5db16c991cac8de0145ad83b84d2ebdff30a1f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b881751ee2b2f85f78f13b4725b0238c8895a26f92f92b46abd3f37fb4c454ac",
+				"dweb:/ipfs/Qmc3T1kfd5dX11RkeKZbeemUiYW2ntp8KZC8iiEVC9f4yw"
+			]
+		}
+	},
+	"version": 1
+}
