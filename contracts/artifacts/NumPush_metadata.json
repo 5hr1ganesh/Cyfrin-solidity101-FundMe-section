@@ -6,19 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "calculateSum",
+				"inputs": [],
+				"name": "numPusher",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -43,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/FundYou.sol": "FundYou"
+			"contracts/FundYou.sol": "NumPush"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -58,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/FundYou.sol": {
-			"keccak256": "0x758627a54989522ddf09a72336b739bf37c94a53982458e9033439ee64242689",
+			"keccak256": "0xb3be81ec380e70160ff8988185c038d22ed92c31294f5ef7d94bad98aab38365",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://19dec0a7425ad8f7e40ccd85fe12bc9767268c4bad683748d929180f0a6a8241",
-				"dweb:/ipfs/QmdXCauKqNy9Dqw8G9NEgR8U1nWvr8BEMtGvov2aN1zxXQ"
+				"bzz-raw://b43c3bb9292b8e9d3e4d03c20bbc37f01e6b5c836f246215a4cc216d4978b89d",
+				"dweb:/ipfs/QmSrFVaNZURBneiXMVSHiEfwd6tFB188Prc48wjcTYUiMn"
 			]
 		},
 		"contracts/MathLib.sol": {
